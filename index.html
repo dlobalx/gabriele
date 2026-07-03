@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Psicóloga Gabriele Taboni | TCC | Ansiedade, Depressão, Relacionamentos | Jundiaí SP e Online</title>
+<meta name="description" content="Gabriele Taboni, psicóloga CRP 06/210945, especialista em ansiedade, depressão, autocobrança e relacionamentos. Atendimento presencial em Jundiaí-SP e online para todo o Brasil. Agende sua consulta." />
+<meta name="keywords" content="psicóloga Jundiaí, psicóloga online, ansiedade, depressão, autocobrança, relacionamentos, TCC, terapia cognitivo comportamental, Gabriele Taboni, CRP 06/210945" />
+<meta name="author" content="Gabriele Taboni" />
+<meta property="og:title" content="Psicóloga Gabriele Taboni | Jundiaí SP e Online" />
+<meta property="og:description" content="Especialista em ansiedade, depressão, autocobrança e relacionamentos. Abordagem TCC. Agende sua consulta." />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="pt_BR" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --brand:    #d4687e;
+    --brand2:   #b84f64;
+    --brand-lt: #FAECF0;
+    --surface:  #F7F7FC;
+    --text:     #111111;
+    --muted:    #555555;
+    --border:   #e8d6da;
+    --bg:       #ffffff;
+    --wapp:     #25d366;
+    --wapp2:    #1ebe5d;
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: -apple-system, "Segoe UI", system-ui, sans-serif; font-size: 15px; line-height: 1.7; color: var(--text); background: var(--bg); }
+  a { color: inherit; text-decoration: none; }
+  img { display: block; width: 100%; object-fit: cover; }
+
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+    padding: 0 40px;
+    background: transparent;
+    transition: background .3s, border-color .3s;
+  }
+  nav.scrolled {
+    background: rgba(255,255,255,.95);
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(8px);
+  }
+  .nav-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 90px; }
+  .nav-logo { display: flex; align-items: center; }
+  .nav-logo-img { height: 110px; width: auto; filter: brightness(0); transition: filter .3s; padding: 10px 0 4px; }
+  nav.scrolled .nav-logo-img { filter: brightness(0); }
+  .nav-links { display: flex; gap: 28px; font-size: 13px; }
+  .nav-links a { color: var(--muted); transition: color .3s; }
+  nav.scrolled .nav-links a { color: var(--muted); }
+  .nav-links a:hover { color: var(--brand); }
+  nav.scrolled .nav-links a:hover { color: var(--brand); }
+  .nav-cta { background: var(--text); color: #fff !important; padding: 9px 20px; border-radius: 6px; font-size: 13px; font-weight: 700; transition: background .3s, color .3s; }
+  nav.scrolled .nav-cta { background: var(--text); color: #fff !important; }
+  .nav-cta:hover { background: var(--brand); color: #fff !important; }
+  nav.scrolled .nav-cta:hover { background: var(--brand); color: #fff !important; }
+
+  .hero { position: relative; width: 100%; min-height: 100vh; overflow: hidden; background: #fff url('fotos/main-foto.jpg') no-repeat right bottom / auto 100%; }
+  .hero-bg { display: none; }
+  .hero-bg-blur { display: none; }
+  .hero-overlay { position: absolute; inset: 0; z-index: 2; background: linear-gradient(to right, #fff 0%, #fff 45%, rgba(255,255,255,.95) 55%, rgba(255,255,255,.7) 68%, rgba(255,255,255,.2) 82%, rgba(255,255,255,0) 100%); }
+  .hero-overlay-bottom { display: none; }
+  .hero-content { position: relative; z-index: 10; min-height: 100vh; display: flex; align-items: center; padding: 120px 64px 80px; max-width: 720px; }
+  .hero-inner { display: flex; flex-direction: column; gap: 0; }
+  .hero-badge { display: inline-flex; align-items: center; gap: 8px; background: var(--brand-lt); border: 1px solid var(--border); color: var(--brand2); font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 6px 16px; border-radius: 20px; margin-bottom: 28px; align-self: flex-start; }
+  .hero-badge-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--brand); }
+  .hero-content h1 { font-size: 42px; font-weight: 900; line-height: 1.15; color: var(--text); margin-bottom: 20px; letter-spacing: -1px; white-space: nowrap; }
+  .hero-content h1 em { font-style: normal; color: var(--brand); }
+  .hero-sub { font-size: 15px; color: var(--muted); margin-bottom: 12px; line-height: 1.75; max-width: 560px; }
+  .hero-crp { font-size: 12px; color: #aaa; margin-bottom: 32px; letter-spacing: .3px; }
+  .hero-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 40px; }
+  .tag { background: var(--brand-lt); border: 1px solid var(--border); border-radius: 20px; padding: 5px 14px; font-size: 12px; color: var(--brand2); }
+  .hero-btns { display: flex; gap: 14px; flex-wrap: wrap; }
+  .btn-wapp { background: var(--wapp); color: #fff; padding: 15px 28px; border-radius: 8px; font-weight: 700; font-size: 15px; display: inline-flex; align-items: center; gap: 9px; }
+  .btn-wapp:hover { background: var(--wapp2); }
+  .btn-ghost { background: transparent; color: var(--text); border: 1.5px solid var(--border); padding: 13px 24px; border-radius: 8px; font-weight: 600; font-size: 15px; display: inline-flex; align-items: center; gap: 8px; }
+  .btn-ghost:hover { background: var(--brand-lt); border-color: var(--brand); color: var(--brand); }
+  .hero-scroll { position: absolute; bottom: 32px; left: 64px; z-index: 10; display: flex; align-items: center; gap: 10px; color: #bbb; font-size: 11px; letter-spacing: .8px; text-transform: uppercase; }
+  .scroll-line { width: 32px; height: 1px; background: var(--border); }
+
+  .trust-bar { background: var(--text); color: #fff; padding: 22px 24px; }
+  .trust-inner { max-width: 1100px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 32px; justify-content: center; align-items: center; }
+  .trust-item { text-align: center; }
+  .trust-item strong { font-size: 20px; font-weight: 800; display: block; color: #FAECF0; }
+  .trust-item span { font-size: 13px; opacity: .75; }
+
+  section { padding: 80px 24px; }
+  .section-inner { max-width: 960px; margin: 0 auto; }
+  .section-label { font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--brand); margin-bottom: 10px; }
+  .section-title { font-size: 30px; font-weight: 900; margin-bottom: 12px; line-height: 1.2; color: var(--text); }
+  .section-sub { color: var(--muted); max-width: 560px; margin-bottom: 40px; font-size: 15px; }
+  .section-title-hover { display: inline-block; position: relative; cursor: default; }
+  .section-title-hover::after { content: ''; position: absolute; left: 0; bottom: -4px; width: 0; height: 3px; background: var(--brand); border-radius: 2px; transition: width .4s cubic-bezier(.4,0,.2,1); }
+  .section-title-hover:hover::after { width: 100%; }
+
+  .specs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 20px; }
+  .spec-card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 30px 22px; border-top: 4px solid var(--brand); transition: background .25s, border-color .25s, transform .25s; cursor: default; }
+  .spec-card:hover { background: var(--brand-lt); border-color: var(--brand); transform: translateY(-4px); }
+  .spec-card h3 { font-size: 16px; font-weight: 800; margin-bottom: 8px; transition: color .25s; }
+  .spec-card:hover h3 { color: var(--brand); }
+  .spec-icon { font-size: 30px; margin-bottom: 14px; }
+  .spec-card p { font-size: 13px; color: var(--muted); line-height: 1.65; }
+
+  .sobre-wrap { display: flex; gap: 64px; align-items: flex-start; }
+  .sobre-photo-col { flex-shrink: 0; position: relative; }
+  .sobre-photo-frame { width: 340px; height: 460px; position: relative; border-radius: 60% 40% 55% 45% / 50% 50% 50% 50%; overflow: hidden; background: #f0d8de; }
+  .sobre-photo-frame img { width: 100%; height: 100%; object-fit: cover; object-position: top center; }
+  .sobre-photo-placeholder { width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: var(--brand); font-size: 13px; text-align: center; padding: 24px; }
+  .sobre-photo-col::before { content: ''; position: absolute; top: 20px; left: 20px; width: 340px; height: 460px; border-radius: 60% 40% 55% 45% / 50% 50% 50% 50%; background: var(--brand-lt); z-index: -1; }
+  .sobre-text { flex: 1; padding-top: 8px; }
+  .sobre-text p { color: var(--muted); margin-bottom: 14px; }
+  .sobre-text p strong { color: var(--text); }
+  .crp-badge { display: inline-block; background: var(--brand-lt); color: var(--brand); font-weight: 700; font-size: 13px; border: 1px solid var(--border); padding: 6px 16px; border-radius: 6px; margin-bottom: 20px; }
+  .sobre-list { list-style: none; margin-bottom: 28px; }
+  .sobre-list li { padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 14px; color: var(--muted); }
+  .sobre-list li:last-child { border: none; }
+  .sobre-list li strong { color: var(--text); }
+
+  .abord-bg { background: var(--surface); }
+  .abord-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
+  .abord-photo-frame { height: 400px; border-radius: 40% 60% 30% 70% / 50% 40% 60% 50%; overflow: hidden; background: #f0d8de; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 8px; color: var(--brand); font-size: 13px; text-align: center; padding: 16px; }
+  .abord-photo-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; }
+  .abord-text p { color: var(--muted); margin-bottom: 14px; }
+  .abord-steps { margin-top: 22px; display: flex; flex-direction: column; gap: 16px; }
+  .abord-step { display: flex; gap: 14px; align-items: flex-start; }
+  .step-num { flex-shrink: 0; width: 28px; height: 28px; border-radius: 50%; background: var(--brand); color: #fff; font-size: 13px; font-weight: 800; display: flex; align-items: center; justify-content: center; margin-top: 3px; }
+  .step-body h4 { font-size: 14px; font-weight: 800; margin-bottom: 3px; }
+  .step-body p { font-size: 13px; color: var(--muted); margin: 0; }
+
+  .dep-bg { background: #1a0a0e; }
+  .dep-bg .section-label { color: var(--brand); }
+  .dep-bg .section-title { color: #fff; }
+  .dep-bg .section-sub { color: rgba(255,255,255,.6); }
+  .dep-carousel-outer { position: relative; }
+  .dep-carousel-wrap { overflow: hidden; }
+  .dep-carousel { display: flex; gap: 20px; transition: transform .45s cubic-bezier(.4,0,.2,1); will-change: transform; }
+  .dep-card { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1); border-radius: 16px; padding: 28px 24px; flex: 0 0 calc(33.333% - 14px); box-sizing: border-box; }
+  .dep-reviewer { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+  .dep-avatar { width: 48px; height: 48px; border-radius: 50%; background: var(--brand-lt); overflow: hidden; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 800; color: var(--brand2); }
+  .dep-avatar img { width: 100%; height: 100%; object-fit: cover; }
+  .dep-reviewer-info { flex: 1; }
+  .dep-reviewer-name { font-size: 14px; font-weight: 700; color: #fff; }
+  .dep-platform { display: flex; align-items: center; gap: 5px; margin-top: 3px; }
+  .dep-platform span { font-size: 11px; color: rgba(255,255,255,.5); }
+  .dep-stars { color: #fbbc04; font-size: 15px; margin-bottom: 14px; letter-spacing: 1px; }
+  .dep-text { font-size: 14px; color: rgba(255,255,255,.7); font-style: italic; line-height: 1.75; }
+  .dep-arrow { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.2); border-radius: 50%; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; cursor: pointer; color: #fff; transition: background .2s; z-index: 2; }
+  .dep-arrow:hover { background: var(--brand); border-color: var(--brand); }
+  .dep-arrow-prev { left: -22px; }
+  .dep-arrow-next { right: -22px; }
+  .dep-dots { display: flex; gap: 8px; justify-content: center; margin-top: 28px; }
+  .dep-dot { width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,.25); cursor: pointer; transition: background .2s, transform .2s; }
+  .dep-dot.active { background: var(--brand); transform: scale(1.3); }
+  @media (max-width: 860px) {
+    .dep-card { flex: 0 0 calc(100% - 0px); }
+    .dep-arrow { display: none; }
+  }
+
+  .at-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  .at-card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 30px 26px; }
+  .at-card h3 { font-size: 17px; font-weight: 800; margin-bottom: 10px; }
+  .at-card p { font-size: 14px; color: var(--muted); }
+  .at-icon { font-size: 34px; margin-bottom: 14px; }
+
+  .faq-list { display: flex; flex-direction: column; gap: 8px; }
+  .faq-item { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px 22px; }
+  .faq-q { font-weight: 800; font-size: 15px; margin-bottom: 8px; }
+  .faq-a { font-size: 14px; color: var(--muted); line-height: 1.7; }
+
+  .cta-section { background: var(--text); color: #fff; text-align: center; padding: 80px 24px; }
+  .cta-section h2 { font-size: 32px; font-weight: 900; margin-bottom: 14px; color: #FAECF0; }
+  .cta-section p { font-size: 16px; opacity: .8; margin-bottom: 36px; max-width: 500px; margin-left: auto; margin-right: auto; }
+  .btn-wapp-lg { display: inline-flex; align-items: center; gap: 10px; background: var(--wapp); color: #fff; padding: 16px 36px; border-radius: 8px; font-weight: 800; font-size: 16px; }
+  .btn-wapp-lg:hover { background: var(--wapp2); }
+  .cta-sub { font-size: 13px; opacity: .55; margin-top: 16px; }
+
+  .btn-primary { background: var(--wapp); color: #fff; padding: 14px 26px; border-radius: 8px; font-weight: 700; font-size: 15px; display: inline-flex; align-items: center; gap: 8px; }
+  .btn-primary:hover { background: var(--wapp2); }
+  .btn-dark { background: var(--text); color: #fff; padding: 14px 26px; border-radius: 8px; font-weight: 700; font-size: 15px; display: inline-flex; align-items: center; gap: 8px; }
+  .btn-dark:hover { background: var(--brand); }
+
+  footer { background: #0e0e0e; color: #aaa; padding: 52px 24px 24px; }
+  .foot-inner { max-width: 960px; margin: 0 auto; }
+  .foot-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 44px; margin-bottom: 40px; }
+  .foot-logo-img { height: 120px; width: auto; filter: brightness(0) invert(1); opacity: .85; margin-bottom: 12px; }
+  .foot-desc { font-size: 13px; color: #888; line-height: 1.75; }
+  .foot-col h4 { font-size: 12px; font-weight: 700; color: #fff; margin-bottom: 14px; text-transform: uppercase; letter-spacing: .7px; }
+  .foot-col ul { list-style: none; }
+  .foot-col ul li { font-size: 13px; color: #888; padding: 4px 0; }
+  .foot-col ul li a { color: #888; }
+  .foot-col ul li a:hover { color: #FAECF0; }
+  .foot-divider { border: none; border-top: 1px solid #222; margin-bottom: 20px; }
+  .foot-bottom { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #555; flex-wrap: wrap; gap: 8px; }
+
+  .float-wapp { position: fixed; bottom: 26px; right: 26px; z-index: 999; width: 58px; height: 58px; border-radius: 50%; background: var(--wapp); color: #fff; display: flex; align-items: center; justify-content: center; }
+
+  @media (max-width: 860px) {
+    /* navbar */
+    nav { padding: 0 16px; }
+    .nav-inner { height: 70px; }
+    .nav-logo-img { height: 80px; padding: 8px 0 4px; }
+    .nav-links { display: none; }
+    .nav-cta { font-size: 12px; padding: 8px 14px; }
+
+    /* hero */
+    .hero { background-position: center top; background-size: cover; }
+    .hero-overlay { background: linear-gradient(to bottom, rgba(255,255,255,.6) 0%, rgba(255,255,255,.92) 40%, #fff 70%); }
+    .hero-content { padding: 90px 24px 60px; max-width: 100%; min-height: auto; }
+    .hero-content h1 { font-size: 26px; letter-spacing: -.5px; white-space: normal; }
+    .hero-sub { font-size: 14px; }
+    .hero-scroll { display: none; }
+    .btn-wapp { font-size: 14px; padding: 13px 20px; }
+    .btn-ghost { font-size: 14px; padding: 11px 18px; }
+
+    /* trust bar */
+    .trust-inner { gap: 20px; }
+    .trust-item strong { font-size: 16px; }
+
+    /* sections */
+    section { padding: 56px 16px; }
+    .section-title { font-size: 24px; }
+    .specs-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+    .spec-card { padding: 20px 16px; }
+
+    /* sobre */
+    .sobre-wrap { flex-direction: column; align-items: center; }
+    .sobre-photo-frame { width: 100%; max-width: 280px; height: 320px; }
+    .sobre-photo-col::before { width: 100%; max-width: 280px; height: 320px; }
+    .sobre-text { padding-top: 0; }
+
+    /* abordagem */
+    .abord-grid { grid-template-columns: 1fr; }
+    .abord-photo-frame { height: 260px; }
+
+    /* depoimentos */
+    .dep-arrow { display: none; }
+    .dep-card { padding: 20px 16px; }
+
+    /* atendimento */
+    .at-grid { grid-template-columns: 1fr; }
+
+    /* localização */
+    #localizacao .section-inner { padding: 56px 16px 0; }
+
+    /* faq */
+    .faq-q { font-size: 14px; }
+
+    /* cta */
+    .cta-section h2 { font-size: 24px; }
+    .btn-wapp-lg { font-size: 14px; padding: 14px 24px; }
+
+    /* footer */
+    .foot-grid { grid-template-columns: 1fr; gap: 28px; }
+    .foot-bottom { flex-direction: column; text-align: center; }
+  }
+
+  @media (max-width: 480px) {
+    .hero-content h1 { font-size: 22px; }
+    .specs-grid { grid-template-columns: 1fr; }
+    .hero-btns { flex-direction: column; }
+    .btn-wapp, .btn-ghost { width: 100%; justify-content: center; }
+    .trust-inner { flex-direction: column; gap: 16px; }
+    .section-title { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<nav id="navbar" role="navigation" aria-label="Menu principal">
+  <div class="nav-inner">
+    <div class="nav-logo">
+      <img src="fotos/Logo.png" alt="Gabriele Taboni - Psicóloga" class="nav-logo-img">
+    </div>
+    <div class="nav-links">
+      <a href="#sobre">Sobre</a>
+      <a href="#especialidades">Especialidades</a>
+      <a href="#abordagem">Abordagem</a>
+      <a href="#atendimento">Atendimento</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <a class="nav-cta" href="https://wa.me/5511930333519?text=Ol%C3%A1%2C%20Gabriele!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener">Agendar Consulta</a>
+  </div>
+</nav>
+
+<div class="hero" aria-label="Apresentação">
+  <img class="hero-bg-blur" src="fotos/main-foto.jpg" alt="">
+  <img class="hero-bg" src="fotos/main-foto.jpg" alt="Psicóloga Gabriele Taboni">
+  <div class="hero-overlay" aria-hidden="true"></div>
+  <div class="hero-overlay-bottom" aria-hidden="true"></div>
+  <div class="hero-content">
+    <div class="hero-inner">
+      <div class="hero-badge"><span class="hero-badge-dot"></span>Psicóloga · CRP 06/210945</div>
+      <h1>Aprenda a lidar com suas emoções<br>sem deixar que elas controlem sua vida.</h1>
+      <p class="hero-sub">Olá, sou a <strong style="color:var(--brand);">Gabriele Taboni</strong>. Atendimento psicológico presencial em Jundiaí e online para todo o Brasil, voltado a adolescentes e adultos, com foco no desenvolvimento de habilidades emocionais, cognitivas e comportamentais para promover mais equilíbrio, autonomia e qualidade de vida.</p>
+      <p class="hero-crp">CRP 06/210945 · Terapia Cognitivo-Comportamental (TCC)</p>
+      <div class="hero-tags">
+        <span class="tag">Ansiedade</span><span class="tag">Depressão</span><span class="tag">Autocobrança</span><span class="tag">Autoestima</span><span class="tag">TCC</span><span class="tag">Jundiaí SP · Online</span>
+      </div>
+      <div class="hero-btns">
+        <a class="btn-wapp" href="https://wa.me/5511930333519?text=Ol%C3%A1%2C%20Gabriele!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.554 4.121 1.527 5.857L0 24l6.341-1.527A11.953 11.953 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.657-.497-5.181-1.366L3 21.5l.88-3.743A9.958 9.958 0 012 12c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          Agendar pelo WhatsApp
+        </a>
+        <a class="btn-ghost" href="#sobre">Saiba mais</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true"><span class="scroll-line"></span>Rolar</div>
+</div>
+
+<div class="trust-bar" role="complementary">
+  <div class="trust-inner">
+    <div class="trust-item"><strong>TCC</strong><span>Abordagem baseada em evidências</span></div>
+    <div class="trust-item"><strong>CRP 06/210945</strong><span>Registro ativo no CFP</span></div>
+    <div class="trust-item"><strong>Presencial + Online</strong><span>Jundiaí-SP e todo Brasil</span></div>
+    <div class="trust-item"><strong>Sigilo total</strong><span>Ética e confidencialidade</span></div>
+  </div>
+</div>
+
+<section id="especialidades" aria-labelledby="spec-title">
+  <div class="section-inner">
+    <p class="section-label">O que eu trato</p>
+    <h2 class="section-title" id="spec-title"><span class="section-title-hover">Especialidades</span></h2>
+    <p class="section-sub">Áreas nas quais ofereço suporte psicológico com escuta atenta, técnica e acolhimento genuíno.</p>
+    <div class="specs-grid">
+      <article class="spec-card"><div class="spec-icon">💆</div><h3>Ansiedade e manejo do estresse</h3><p>Compreender os gatilhos da ansiedade e desenvolver ferramentas práticas para recuperar o equilíbrio.</p></article>
+      <article class="spec-card"><div class="spec-icon">⚖️</div><h3>Regulação Emocional</h3><p>Identificar, compreender e gerenciar as emoções de forma mais saudável e consciente no dia a dia.</p></article>
+      <article class="spec-card"><div class="spec-icon">🪞</div><h3>Autocobrança, perfeccionismo e autossabotagem</h3><p>Reconhecer padrões que travam e construir uma relação mais compassiva e flexível consigo mesmo.</p></article>
+      <article class="spec-card"><div class="spec-icon">⏳</div><h3>Procrastinação e culpa</h3><p>Entender o que está por trás do adiamento e da culpa para retomar a ação com mais leveza.</p></article>
+      <article class="spec-card"><div class="spec-icon">🌸</div><h3>Autoestima e autoconhecimento</h3><p>Fortalecer a confiança, a identidade e a percepção de si mesmo de forma mais saudável e real.</p></article>
+      <article class="spec-card"><div class="spec-icon">🤝</div><h3>Relacionamentos interpessoais e conflitos familiares</h3><p>Trabalhar vínculos afetivos, limites e padrões relacionais que geram sofrimento e conflito.</p></article>
+      <article class="spec-card"><div class="spec-icon">🔊</div><h3>Habilidades sociais e comunicação assertiva</h3><p>Aprender a se expressar com clareza e respeito, fortalecendo as relações e a autoconfiança.</p></article>
+      <article class="spec-card"><div class="spec-icon">🕯️</div><h3>Luto e adaptação a mudanças</h3><p>Suporte para atravessar perdas e transições com acolhimento, ressignificação e cuidado emocional.</p></article>
+      <article class="spec-card"><div class="spec-icon">🧭</div><h3>Transição de carreira e tomada de decisões</h3><p>Apoio psicológico em momentos de mudança profissional, autoconhecimento e novos direcionamentos.</p></article>
+      <article class="spec-card"><div class="spec-icon">🌱</div><h3>Desenvolvimento emocional de adolescentes e adultos</h3><p>Acompanhamento nas diferentes fases da vida, com atenção às particularidades de cada momento.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="sobre" style="background:var(--brand-lt);" aria-labelledby="sobre-title">
+  <div class="section-inner">
+    <div class="sobre-wrap">
+      <div class="sobre-photo-col">
+        <div class="sobre-photo-frame">
+          <img src="fotos/_MG_0058.jpg" alt="Gabriele Taboni - Psicóloga">
+        </div>
+      </div>
+      <div class="sobre-text">
+        <p class="section-label">Sobre mim</p>
+        <h2 class="section-title" id="sobre-title">Gabriele Taboni</h2>
+        <span class="crp-badge">CRP 06/210945</span>
+        <p>Sou psicóloga com atuação focada em <strong>saúde mental e bem-estar emocional</strong>. Acredito que cada pessoa carrega uma história única, e é com essa escuta individualizada que construímos juntos um processo terapêutico significativo.</p>
+        <p>Meu trabalho é pautado pela ética, pelo sigilo e pelo respeito à singularidade de cada paciente. Utilizo a <strong>Terapia Cognitivo-Comportamental (TCC)</strong> — abordagem com ampla base científica — para ajudá-lo a compreender e transformar padrões que causam sofrimento.</p>
+        <ul class="sobre-list">
+          <li><strong>Formação:</strong> Bacharel em Psicologia · Pós-graduada em Terapia Cognitivo-Comportamental (TCC) · Graduada em Gestão de Recursos Humanos</li>
+          <li><strong>Registro:</strong> CRP 06/210945</li>
+          <li><strong>Abordagem:</strong> Terapia Cognitivo-Comportamental (TCC)</li>
+          <li><strong>Especialidades:</strong> Ansiedade · Depressão · Autocobrança · Autoestima</li>
+          <li><strong>Localização:</strong> Jundiaí-SP e Online (todo Brasil)</li>
+        </ul>
+        <a class="btn-dark" href="https://wa.me/5511930333519?text=Ol%C3%A1%2C%20Gabriele!%20Quero%20saber%20mais." target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.554 4.121 1.527 5.857L0 24l6.341-1.527A11.953 11.953 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.657-.497-5.181-1.366L3 21.5l.88-3.743A9.958 9.958 0 012 12c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          Falar comigo agora
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="abordagem" class="abord-bg" aria-labelledby="abord-title">
+  <div class="section-inner">
+    <div class="abord-grid">
+      <div>
+        <p class="section-label">Como trabalho</p>
+        <h2 class="section-title" id="abord-title">Terapia Cognitivo-Comportamental (TCC)</h2>
+        <div class="abord-text">
+          <p>A TCC é uma das abordagens psicológicas com maior respaldo científico no mundo. Ela parte da ideia de que <strong>nossos pensamentos influenciam diretamente nossas emoções e comportamentos</strong> — e que, ao identificar e modificar padrões disfuncionais, podemos transformar a forma como vivemos.</p>
+          <p>O processo é colaborativo, estruturado e orientado a objetivos concretos para a sua vida.</p>
+        </div>
+        <div class="abord-steps">
+          <div class="abord-step"><div class="step-num">1</div><div class="step-body"><h4>Avaliação inicial</h4><p>Compreendo sua história, queixas e objetivos terapêuticos.</p></div></div>
+          <div class="abord-step"><div class="step-num">2</div><div class="step-body"><h4>Identificação de padrões</h4><p>Mapeamos pensamentos, emoções e comportamentos que geram sofrimento.</p></div></div>
+          <div class="abord-step"><div class="step-num">3</div><div class="step-body"><h4>Reestruturação cognitiva</h4><p>Desenvolvemos estratégias práticas e personalizadas para transformação.</p></div></div>
+          <div class="abord-step"><div class="step-num">4</div><div class="step-body"><h4>Consolidação e autonomia</h4><p>Você aprende ferramentas para manter seu bem-estar além da terapia.</p></div></div>
+        </div>
+      </div>
+      <div class="abord-photo-frame" role="img" aria-label="Foto do consultório">
+        <img src="fotos/_MG_0065.jpg" alt="Consultório - Gabriele Taboni">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="depoimentos" class="dep-bg" aria-labelledby="dep-title">
+  <div class="section-inner">
+    <p class="section-label">Quem já passou pela terapia</p>
+    <h2 class="section-title" id="dep-title">Depoimentos</h2>
+    <p class="section-sub">Histórias reais de pessoas que deram o primeiro passo. Nomes preservados por sigilo.</p>
+    <div class="dep-carousel-outer">
+      <button class="dep-arrow dep-arrow-prev" id="depPrev" aria-label="Anterior">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <div class="dep-carousel-wrap">
+        <div class="dep-carousel" id="depCarousel">
+
+          <article class="dep-card">
+            <div class="dep-reviewer">
+              <div class="dep-avatar">F</div>
+              <div class="dep-reviewer-info">
+                <div class="dep-reviewer-name">Fernanda Bento Paixão</div>
+                <div class="dep-platform">
+                  <svg width="14" height="14" viewBox="0 0 48 48"><path fill="#4285F4" d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z"/><path fill="#34A853" d="M6.3 14.7l7 5.1C15 16.1 19.2 13 24 13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 16.3 2 9.7 7.4 6.3 14.7z"/><path fill="#FBBC05" d="M24 46c5.9 0 10.9-2 14.5-5.4l-6.7-5.5C29.8 36.8 27 38 24 38c-6 0-11.1-4-13-9.5l-7 5.4C7.5 41.8 15.2 46 24 46z"/><path fill="#EA4335" d="M44.5 20H24v8.5h11.8c-.9 2.6-2.6 4.7-4.9 6.1l6.7 5.5C41.5 36.8 46 31 46 24c0-1.3-.2-2.7-.5-4z"/></svg>
+                  <span>Google Reviews</span>
+                </div>
+              </div>
+            </div>
+            <div class="dep-stars">★★★★★</div>
+            <p class="dep-text">"Excelente profissional! A terapia tem me ajudado muito. A Gabriele é sempre muito cuidadosa, acolhedora e profissional. As sessões online são práticas, tornando todo o processo ainda melhor. Sou muito grata pelo acompanhamento e recomendo de olhos fechados!"</p>
+          </article>
+
+          <article class="dep-card">
+            <div class="dep-reviewer">
+              <div class="dep-avatar">A</div>
+              <div class="dep-reviewer-info">
+                <div class="dep-reviewer-name">Amanda Borba</div>
+                <div class="dep-platform">
+                  <svg width="14" height="14" viewBox="0 0 48 48"><path fill="#4285F4" d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z"/><path fill="#34A853" d="M6.3 14.7l7 5.1C15 16.1 19.2 13 24 13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 16.3 2 9.7 7.4 6.3 14.7z"/><path fill="#FBBC05" d="M24 46c5.9 0 10.9-2 14.5-5.4l-6.7-5.5C29.8 36.8 27 38 24 38c-6 0-11.1-4-13-9.5l-7 5.4C7.5 41.8 15.2 46 24 46z"/><path fill="#EA4335" d="M44.5 20H24v8.5h11.8c-.9 2.6-2.6 4.7-4.9 6.1l6.7 5.5C41.5 36.8 46 31 46 24c0-1.3-.2-2.7-.5-4z"/></svg>
+                  <span>Google Reviews</span>
+                </div>
+              </div>
+            </div>
+            <div class="dep-stars">★★★★★</div>
+            <p class="dep-text">"Uma profissional incrível e que me ajuda demais. Eu nunca tinha feito terapia antes então ficava bem receosa de me abrir dessa maneira, mas desde a primeira sessão a Gabriele sempre me deixou confortável e assim sigo com ela até hoje."</p>
+          </article>
+
+          <article class="dep-card">
+            <div class="dep-reviewer">
+              <div class="dep-avatar">R</div>
+              <div class="dep-reviewer-info">
+                <div class="dep-reviewer-name">Ricardo Sato</div>
+                <div class="dep-platform">
+                  <svg width="14" height="14" viewBox="0 0 48 48"><path fill="#4285F4" d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z"/><path fill="#34A853" d="M6.3 14.7l7 5.1C15 16.1 19.2 13 24 13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 16.3 2 9.7 7.4 6.3 14.7z"/><path fill="#FBBC05" d="M24 46c5.9 0 10.9-2 14.5-5.4l-6.7-5.5C29.8 36.8 27 38 24 38c-6 0-11.1-4-13-9.5l-7 5.4C7.5 41.8 15.2 46 24 46z"/><path fill="#EA4335" d="M44.5 20H24v8.5h11.8c-.9 2.6-2.6 4.7-4.9 6.1l6.7 5.5C41.5 36.8 46 31 46 24c0-1.3-.2-2.7-.5-4z"/></svg>
+                  <span>Google Reviews</span>
+                </div>
+              </div>
+            </div>
+            <div class="dep-stars">★★★★★</div>
+            <p class="dep-text">"Faço terapia com a Gabi há quase um ano e durante este tempo tive uma evolução absurda no meu autoconhecimento. A Gabi sempre trouxe acolhimento aos meus sentimentos, me ajudou a organizar as minhas ideias, enfatizar as minhas prioridades e o principal me ajudou a enfrentar a vida de uma forma mais leve!!! Gabi, você é incrível."</p>
+          </article>
+
+          <article class="dep-card">
+            <div class="dep-reviewer">
+              <div class="dep-avatar">R</div>
+              <div class="dep-reviewer-info">
+                <div class="dep-reviewer-name">Rosania Muniz</div>
+                <div class="dep-platform">
+                  <svg width="14" height="14" viewBox="0 0 48 48"><path fill="#4285F4" d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z"/><path fill="#34A853" d="M6.3 14.7l7 5.1C15 16.1 19.2 13 24 13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 16.3 2 9.7 7.4 6.3 14.7z"/><path fill="#FBBC05" d="M24 46c5.9 0 10.9-2 14.5-5.4l-6.7-5.5C29.8 36.8 27 38 24 38c-6 0-11.1-4-13-9.5l-7 5.4C7.5 41.8 15.2 46 24 46z"/><path fill="#EA4335" d="M44.5 20H24v8.5h11.8c-.9 2.6-2.6 4.7-4.9 6.1l6.7 5.5C41.5 36.8 46 31 46 24c0-1.3-.2-2.7-.5-4z"/></svg>
+                  <span>Google Reviews</span>
+                </div>
+              </div>
+            </div>
+            <div class="dep-stars">★★★★★</div>
+            <p class="dep-text">"Minha experiência na terapia tem sido muito importante, tenho tido várias reflexões e percebo mudanças em mim. Sou muito grata a minha terapeuta pela escuta empática e todo acolhimento."</p>
+          </article>
+
+          <article class="dep-card">
+            <div class="dep-reviewer">
+              <div class="dep-avatar">Y</div>
+              <div class="dep-reviewer-info">
+                <div class="dep-reviewer-name">Yasmin Tamires</div>
+                <div class="dep-platform">
+                  <svg width="14" height="14" viewBox="0 0 48 48"><path fill="#4285F4" d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z"/><path fill="#34A853" d="M6.3 14.7l7 5.1C15 16.1 19.2 13 24 13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 16.3 2 9.7 7.4 6.3 14.7z"/><path fill="#FBBC05" d="M24 46c5.9 0 10.9-2 14.5-5.4l-6.7-5.5C29.8 36.8 27 38 24 38c-6 0-11.1-4-13-9.5l-7 5.4C7.5 41.8 15.2 46 24 46z"/><path fill="#EA4335" d="M44.5 20H24v8.5h11.8c-.9 2.6-2.6 4.7-4.9 6.1l6.7 5.5C41.5 36.8 46 31 46 24c0-1.3-.2-2.7-.5-4z"/></svg>
+                  <span>Google Reviews</span>
+                </div>
+              </div>
+            </div>
+            <div class="dep-stars">★★★★★</div>
+            <p class="dep-text">"Uma excelente pessoa, se preocupa de verdade com seu paciente, está disposta a ajudar sempre. Adoro cada consulta."</p>
+          </article>
+
+          <article class="dep-card">
+            <div class="dep-reviewer">
+              <div class="dep-avatar">S</div>
+              <div class="dep-reviewer-info">
+                <div class="dep-reviewer-name">Samara Setin</div>
+                <div class="dep-platform">
+                  <svg width="14" height="14" viewBox="0 0 48 48"><path fill="#4285F4" d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z"/><path fill="#34A853" d="M6.3 14.7l7 5.1C15 16.1 19.2 13 24 13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 16.3 2 9.7 7.4 6.3 14.7z"/><path fill="#FBBC05" d="M24 46c5.9 0 10.9-2 14.5-5.4l-6.7-5.5C29.8 36.8 27 38 24 38c-6 0-11.1-4-13-9.5l-7 5.4C7.5 41.8 15.2 46 24 46z"/><path fill="#EA4335" d="M44.5 20H24v8.5h11.8c-.9 2.6-2.6 4.7-4.9 6.1l6.7 5.5C41.5 36.8 46 31 46 24c0-1.3-.2-2.7-.5-4z"/></svg>
+                  <span>Google Reviews</span>
+                </div>
+              </div>
+            </div>
+            <div class="dep-stars">★★★★★</div>
+            <p class="dep-text">"A Gabriele é incrível! Uma excelente profissional! Doce, acolhedora, leve e que te faz refletir e avaliar diversas perspectivas! Foi essencial na minha vida! Sou muito grata pelas nossas consultas e pelo seu atendimento!"</p>
+          </article>
+
+          <article class="dep-card">
+            <div class="dep-reviewer">
+              <div class="dep-avatar">C</div>
+              <div class="dep-reviewer-info">
+                <div class="dep-reviewer-name">Criando Memórias Papelaria</div>
+                <div class="dep-platform">
+                  <svg width="14" height="14" viewBox="0 0 48 48"><path fill="#4285F4" d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z"/><path fill="#34A853" d="M6.3 14.7l7 5.1C15 16.1 19.2 13 24 13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 16.3 2 9.7 7.4 6.3 14.7z"/><path fill="#FBBC05" d="M24 46c5.9 0 10.9-2 14.5-5.4l-6.7-5.5C29.8 36.8 27 38 24 38c-6 0-11.1-4-13-9.5l-7 5.4C7.5 41.8 15.2 46 24 46z"/><path fill="#EA4335" d="M44.5 20H24v8.5h11.8c-.9 2.6-2.6 4.7-4.9 6.1l6.7 5.5C41.5 36.8 46 31 46 24c0-1.3-.2-2.7-.5-4z"/></svg>
+                  <span>Google Reviews</span>
+                </div>
+              </div>
+            </div>
+            <div class="dep-stars">★★★★★</div>
+            <p class="dep-text">"Eu achava que a abordagem TCC não era pra mim, até descobrir que eu não tinha achado a psicóloga certa. A Gabi é acolhedora e extremamente competente. Nesse período que estamos juntas, as coisas têm ficado mais fáceis. É bom ter alguém com quem sabemos que podemos contar. Só gratidão por tudo, por cada palavra até aqui, por me ajudar a quebrar ciclos, a impor limites, a descobrir quem eu sou. Obrigada Gabi ♡"</p>
+          </article>
+
+          <article class="dep-card">
+            <div class="dep-reviewer">
+              <div class="dep-avatar">C</div>
+              <div class="dep-reviewer-info">
+                <div class="dep-reviewer-name">Cristina Aparecida Gomes Karaoni</div>
+                <div class="dep-platform">
+                  <svg width="14" height="14" viewBox="0 0 48 48"><path fill="#4285F4" d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z"/><path fill="#34A853" d="M6.3 14.7l7 5.1C15 16.1 19.2 13 24 13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 16.3 2 9.7 7.4 6.3 14.7z"/><path fill="#FBBC05" d="M24 46c5.9 0 10.9-2 14.5-5.4l-6.7-5.5C29.8 36.8 27 38 24 38c-6 0-11.1-4-13-9.5l-7 5.4C7.5 41.8 15.2 46 24 46z"/><path fill="#EA4335" d="M44.5 20H24v8.5h11.8c-.9 2.6-2.6 4.7-4.9 6.1l6.7 5.5C41.5 36.8 46 31 46 24c0-1.3-.2-2.7-.5-4z"/></svg>
+                  <span>Google Reviews</span>
+                </div>
+              </div>
+            </div>
+            <div class="dep-stars">★★★★★</div>
+            <p class="dep-text">"Excelente profissional! Atende meu filho e estou muito satisfeita com a evolução dele! Depois que começou a terapia com a Gabriele é outra criança... Tinha dificuldade com interações sociais e hoje já consegue interagir e conversar com qualquer pessoa! Super indico!!!"</p>
+          </article>
+
+          <article class="dep-card">
+            <div class="dep-reviewer">
+              <div class="dep-avatar">K</div>
+              <div class="dep-reviewer-info">
+                <div class="dep-reviewer-name">Karina Oliveira Landi</div>
+                <div class="dep-platform">
+                  <svg width="14" height="14" viewBox="0 0 48 48"><path fill="#4285F4" d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z"/><path fill="#34A853" d="M6.3 14.7l7 5.1C15 16.1 19.2 13 24 13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 16.3 2 9.7 7.4 6.3 14.7z"/><path fill="#FBBC05" d="M24 46c5.9 0 10.9-2 14.5-5.4l-6.7-5.5C29.8 36.8 27 38 24 38c-6 0-11.1-4-13-9.5l-7 5.4C7.5 41.8 15.2 46 24 46z"/><path fill="#EA4335" d="M44.5 20H24v8.5h11.8c-.9 2.6-2.6 4.7-4.9 6.1l6.7 5.5C41.5 36.8 46 31 46 24c0-1.3-.2-2.7-.5-4z"/></svg>
+                  <span>Google Reviews</span>
+                </div>
+              </div>
+            </div>
+            <div class="dep-stars">★★★★★</div>
+            <p class="dep-text">"Comecei a terapia com a Gabriele há pouco mais de 2 meses. Me identifiquei logo na primeira sessão com a abordagem dela e a forma como conduz. Está fazendo bastante diferença em meu processo de análise e autoconhecimento. Profissional competente, extremamente atenciosa e perspicaz."</p>
+          </article>
+
+        </div>
+      </div>
+      <button class="dep-arrow dep-arrow-next" id="depNext" aria-label="Próximo">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+    <div class="dep-dots" id="depDots">
+      <div class="dep-dot active"></div>
+      <div class="dep-dot"></div>
+      <div class="dep-dot"></div>
+    </div>
+  </div>
+</section>
+
+<section id="atendimento" aria-labelledby="at-title">
+  <div class="section-inner">
+    <p class="section-label">Como e onde</p>
+    <h2 class="section-title" id="at-title">Modalidades de Atendimento</h2>
+    <p class="section-sub">Escolha a modalidade que melhor se encaixa na sua rotina.</p>
+    <div class="at-grid">
+      <article class="at-card"><div class="at-icon">🏢</div><h3>Presencial — Jundiaí-SP</h3><p>Atendimento no consultório em Jundiaí, São Paulo. Ambiente acolhedor, seguro e reservado.</p><p style="margin-top:14px;font-size:13px;color:var(--muted);">📍 Inova Clínica Médica<br>Av. Coletta Ferraz de Castro, 319<br>Jardim Paulista, Jundiaí — SP<br>CEP 13208-280</p></article>
+      <article class="at-card"><div class="at-icon">💻</div><h3>Online — Todo o Brasil</h3><p>Sessões por videochamada para qualquer cidade do Brasil. Mesma qualidade, total comodidade.</p><p style="margin-top:14px;font-size:13px;color:var(--muted);">🌐 Todo o território nacional<br>Plataforma segura e sigilosa</p></article>
+    </div>
+    <div style="text-align:center;margin-top:44px;">
+      <a class="btn-primary" href="https://wa.me/5511930333519?text=Ol%C3%A1%2C%20Gabriele!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener" style="font-size:16px;padding:16px 34px;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.554 4.121 1.527 5.857L0 24l6.341-1.527A11.953 11.953 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.657-.497-5.181-1.366L3 21.5l.88-3.743A9.958 9.958 0 012 12c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10z"/></svg>
+        Agendar consulta agora
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="faq" style="background:var(--surface);" aria-labelledby="faq-title">
+  <div class="section-inner">
+    <p class="section-label">Dúvidas frequentes</p>
+    <h2 class="section-title" id="faq-title">Perguntas Frequentes</h2>
+    <p class="section-sub">Respondendo as principais dúvidas antes de você dar o primeiro passo.</p>
+    <div class="faq-list">
+      <div class="faq-item"><p class="faq-q">Como funciona a primeira sessão?</p><p class="faq-a">A primeira sessão é uma consulta inicial de acolhimento. Vamos conversar sobre o que te trouxe à terapia, sua história e seus objetivos. É um momento sem julgamentos, onde você pode se sentir à vontade para falar.</p></div>
+      <div class="faq-item"><p class="faq-q">O que é TCC e por que você utiliza essa abordagem?</p><p class="faq-a">A Terapia Cognitivo-Comportamental (TCC) é uma das abordagens com maior evidência científica. Ela trabalha a relação entre pensamentos, emoções e comportamentos, sendo especialmente eficaz para ansiedade, depressão e autocobrança.</p></div>
+      <div class="faq-item"><p class="faq-q">O atendimento online é tão eficaz quanto o presencial?</p><p class="faq-a">Sim. Pesquisas comprovam que a terapia online tem eficácia equivalente ao atendimento presencial para as demandas que atendo. A sessão acontece por videochamada segura, com total sigilo.</p></div>
+      <div class="faq-item"><p class="faq-q">Com que frequência acontecem as sessões?</p><p class="faq-a">Geralmente as sessões são semanais, com duração de 50 minutos. A frequência pode ser ajustada de acordo com o momento do processo terapêutico e sua necessidade.</p></div>
+      <div class="faq-item"><p class="faq-q">Minhas informações são sigilosas?</p><p class="faq-a">Sim. O sigilo é um princípio ético fundamental da psicologia, previsto no Código de Ética do CFP. Tudo o que é compartilhado nas sessões é absolutamente confidencial.</p></div>
+      <div class="faq-item"><p class="faq-q">Como faço para agendar?</p><p class="faq-a">É simples: entre em contato pelo WhatsApp clicando em qualquer botão "Agendar" nesta página. Responderei rapidamente para combinar horário e modalidade de atendimento.</p></div>
+      <div class="faq-item"><p class="faq-q">Quanto custa a sessão?</p><p class="faq-a">O valor varia de acordo com o tipo de atendimento — online ou presencial. <a href="https://wa.me/5511930333519?text=Ol%C3%A1%2C%20Gabriele!%20Gostaria%20de%20saber%20sobre%20os%20valores%20das%20sess%C3%B5es." target="_blank" rel="noopener" style="color:var(--brand);font-weight:700;">Me chama no WhatsApp</a> e te explico tudo com transparência e sem compromisso.</p></div>
+      <div class="faq-item"><p class="faq-q">Atende por convênio?</p><p class="faq-a">Atendimento a convênio, somente com reembolso.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section" aria-label="Chamada para ação">
+  <h2>Pronto para cuidar da sua saúde mental?</h2>
+  <p>Dar o primeiro passo é o mais difícil. Estou aqui para acompanhar você nessa jornada, com escuta, técnica e cuidado genuíno.</p>
+  <a class="btn-wapp-lg" href="https://wa.me/5511930333519?text=Ol%C3%A1%2C%20Gabriele!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.554 4.121 1.527 5.857L0 24l6.341-1.527A11.953 11.953 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.657-.497-5.181-1.366L3 21.5l.88-3.743A9.958 9.958 0 012 12c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10z"/></svg>
+    Agendar pelo WhatsApp
+  </a>
+  <p class="cta-sub">+55 11 93033-3519 · Atendimento em Jundiaí-SP e Online</p>
+</section>
+
+<footer>
+  <div class="foot-inner">
+    <div class="foot-grid">
+      <div>
+        <img src="fotos/Logo.png" alt="Gabriele Taboni - Psicóloga" class="foot-logo-img">
+        <p class="foot-desc">Atendimento psicológico individual com abordagem TCC. Especialista em ansiedade, depressão, autocobrança e autoestima. Jundiaí-SP e online para todo Brasil.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Especialidades</h4>
+        <ul>
+          <li>Autocobrança</li><li>Ansiedade</li><li>Depressão</li><li>Autoestima</li><li>TCC</li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="https://wa.me/5511930333519" target="_blank" rel="noopener">+55 11 93033-3519</a></li>
+          <li>Jundiaí — SP</li>
+          <li>Atendimento Online Brasil</li>
+          <li>CRP 06/210945</li>
+        </ul>
+      </div>
+    </div>
+    <hr class="foot-divider" />
+    <div class="foot-bottom">
+      <span>© 2025 Gabriele Taboni. Todos os direitos reservados.</span>
+      <span>CRP 06/210945 · Psicóloga registrada no CFP</span>
+    </div>
+  </div>
+</footer>
+
+<section id="localizacao" style="background:var(--surface); padding: 0;" aria-labelledby="loc-title">
+  <div class="section-inner" style="padding: 80px 24px 0;">
+    <p class="section-label">Onde nos encontrar</p>
+    <h2 class="section-title" id="loc-title">Localização</h2>
+    <p class="section-sub">Atendimento presencial na <strong>Inova Clínica Médica</strong>, em Jundiaí-SP.</p>
+    <div style="display:flex;gap:24px;align-items:flex-start;flex-wrap:wrap;margin-bottom:0;">
+      <div style="flex:1;min-width:260px;background:var(--bg);border:1px solid var(--border);border-radius:14px;padding:28px 24px;">
+        <div style="font-size:28px;margin-bottom:12px;">📍</div>
+        <h3 style="font-size:16px;font-weight:800;margin-bottom:8px;">Inova Clínica Médica</h3>
+        <p style="font-size:14px;color:var(--muted);line-height:1.75;margin-bottom:20px;">Av. Coletta Ferraz de Castro, 319<br>Jardim Paulista, Jundiaí — SP<br>CEP 13208-280</p>
+        <a href="https://www.google.com/maps/search/Inova+Clinica+Medica+Av+Coletta+Ferraz+de+Castro+319+Jundiai" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:var(--text);color:#fff;padding:10px 20px;border-radius:8px;font-size:13px;font-weight:700;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+          Abrir no Google Maps
+        </a>
+      </div>
+      <div style="flex:3;min-width:300px;border-radius:14px;overflow:hidden;border:1px solid var(--border);">
+        <iframe
+          title="Localização Inova Clínica Médica Jundiaí"
+          src="https://maps.google.com/maps?q=Av.+Coletta+Ferraz+de+Castro,+319,+Jardim+Paulista,+Jundia%C3%AD,+SP,+13208-280&output=embed&hl=pt-BR"
+          width="100%" height="380" style="border:0;display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </div>
+  <div style="height:80px;"></div>
+</section>
+
+<a class="float-wapp" href="https://wa.me/5511930333519?text=Ol%C3%A1%2C%20Gabriele!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.554 4.121 1.527 5.857L0 24l6.341-1.527A11.953 11.953 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.657-.497-5.181-1.366L3 21.5l.88-3.743A9.958 9.958 0 012 12c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10z"/></svg>
+</a>
+
+<script>
+  var nav = document.getElementById('navbar');
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 40) { nav.classList.add('scrolled'); }
+    else { nav.classList.remove('scrolled'); }
+  });
+
+  (function() {
+    var carousel = document.getElementById('depCarousel');
+    var wrap = carousel.parentElement; // .dep-carousel-wrap
+    var dots = document.querySelectorAll('#depDots .dep-dot');
+    var cards = carousel.querySelectorAll('.dep-card');
+    var total = cards.length;   // 9
+    var perPage = 3;            // dots.length == 3
+    var page = 0;               // página atual (0, 1 ou 2)
+    var pages = dots.length;    // 3
+
+    function goTo(p) {
+      page = (p + pages) % pages;
+      // cada página avança perPage cards; no mobile avança 1
+      var isMobile = window.innerWidth <= 860;
+      var step = isMobile ? page : page * perPage;
+      var cardW = cards[0].offsetWidth + 20; // largura + gap
+      carousel.style.transform = 'translateX(-' + (step * cardW) + 'px)';
+      dots.forEach(function(d, i) { d.classList.toggle('active', i === page); });
+    }
+
+    document.getElementById('depNext').addEventListener('click', function() { goTo(page + 1); });
+    document.getElementById('depPrev').addEventListener('click', function() { goTo(page - 1); });
+    dots.forEach(function(d, i) { d.addEventListener('click', function() { goTo(i); }); });
+    window.addEventListener('resize', function() { goTo(page); });
+
+    setInterval(function() { goTo(page + 1); }, 5000);
+  })();
+</script>
+</body>
+</html>
